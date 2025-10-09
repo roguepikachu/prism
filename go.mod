@@ -133,4 +133,8 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
-replace cloud.google.com/go => cloud.google.com/go v0.100.2
+replace (
+	cloud.google.com/go => cloud.google.com/go v0.100.2
+	go.yaml.in/yaml/v3 => go.yaml.in/yaml/v3 v3.0.4
+	gopkg.in/yaml.v3 => go.yaml.in/yaml/v3 v3.0.1
+)
